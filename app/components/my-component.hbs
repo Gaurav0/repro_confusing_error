@@ -1,0 +1,4 @@
+<button {{on "click" (fn (mut this.showIt))}}>Click me!</button>
+{{#if this.showIt}}
+  {{this.args.myArgument}}
+{{/if}}
